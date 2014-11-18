@@ -13,6 +13,7 @@
 #include "hash/sph_tiger.h"
 #include "hash/sph_whirlpool.h"
 #include "hash/sph_ripemd.h"
+#include "../sha256.h"
 
 static void mpz_set_uint256(mpz_t r, uint8_t *u)
 {
