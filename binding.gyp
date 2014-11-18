@@ -11,6 +11,7 @@
                 "yescrypt/yescryptcommon.c",
                 "m7m/m7m.c",
                 "m7m/magimath.c",
+                "m7m/hash/sha2.c",
                 "keccak.c",
                 "skein.c",
                 "x11.c",
