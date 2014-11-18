@@ -16,7 +16,6 @@
                 "m7m/hash/sha2.c",
                 "m7m/hash/sha2big.c",
                 "m7m/hash/tiger.c",
-                "m7m/hash/whirlpool.c",
                 "keccak.c",
                 "skein.c",
                 "x11.c",
