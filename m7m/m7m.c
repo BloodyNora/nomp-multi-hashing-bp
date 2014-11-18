@@ -14,6 +14,7 @@
 #include "hash/sph_whirlpool.h"
 #include "hash/sph_ripemd.h"
 
+
 static void mpz_set_uint256(mpz_t r, uint8_t *u)
 {
     mpz_import(r, 32 / sizeof(unsigned long), -1, sizeof(unsigned long), -1, 0, u);
