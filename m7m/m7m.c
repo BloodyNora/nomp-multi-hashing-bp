@@ -1,6 +1,6 @@
 #include <float.h>
 #include <math.h>
-//#include <gmp.h>
+#include <gmp.h>
 #include <stdlib.h>
 #include <stdint.h>
 #include <string.h>

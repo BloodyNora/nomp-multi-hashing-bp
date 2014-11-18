@@ -61,6 +61,35 @@
                 "crypto/aesb.c",
                 "crypto/wild_keccak.cpp",
             ],
+            'conditions': [
+                ['OS=="linux"',
+                  {
+                    'link_settings': {
+                      'libraries': [
+                        '-lgmp'
+                      ]
+                    }
+                  }
+                ],
+                ['OS=="mac"',
+                  {
+                    'link_settings': {
+                      'libraries': [
+                        '-lgmp'
+                      ]
+                    }
+                  }
+                ],
+                ['OS=="win"',
+                  {
+                    'link_settings': {
+                      'libraries': [
+                        '-lgmp.lib'
+                      ],
+                    }
+                  }
+                ]
+              ],
             "include_dirs": [
                 "crypto",
             ],
