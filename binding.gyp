@@ -9,6 +9,8 @@
                 "yescrypt/sha256_Y.c",
                 "yescrypt/yescrypt-best.c",
                 "yescrypt/yescryptcommon.c",
+                "m7m/m7m.c",
+                "m7m/magimath.c",
                 "keccak.c",
                 "skein.c",
                 "x11.c",
