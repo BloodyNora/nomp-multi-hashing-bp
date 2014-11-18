@@ -27,6 +27,7 @@ extern "C" {
     #include "sha1.h",
     #include "x15.h"
 	#include "fresh.h"
+    #include "sha256.h"
 }
 
 #include "boolberry.h"
